@@ -13,7 +13,7 @@ def canCompleteCircuit(gas, cost):
             idx = i + 1
             totalGas = 0
         total += currGas
-    return idx if total == 0 else -1 
+    return idx if total >= 0 else -1 
 
 # Time Complexity : O(n)
 # Space Complexity : O(1)
