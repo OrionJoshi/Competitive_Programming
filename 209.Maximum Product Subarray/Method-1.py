@@ -2,8 +2,8 @@
 
 def maxProduct(nums):
     maxProduct = max(nums)
-    currMax = nums[0]
-    currMin = nums[0]
+    currMax = 1
+    currMin = 1
     
     for num in nums:
         if num == 0:
